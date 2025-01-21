@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Your Digital Frontier</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <nav>
+            <div class="logo">Tech<span class="highlight">Blog</span></div>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to the <span class="highlight">Digital Frontier</span></h1>
+                <p class="subtitle">Exploring tomorrow's technology, today.</p>
+                <a href="#blog" class="cta-button">Explore Blog</a>
+            </div>
+            <div class="hero-image">
+                <div class="tech-circle"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I'm [Your Name], a tech enthusiast and futurist. With over [X] years in the industry, I've been at the forefront of emerging technologies, from AI and blockchain to quantum computing and beyond.</p>
+                    <p>My mission is to demystify complex tech concepts and explore their potential to reshape our world. Join me on this exciting journey into the digital frontier!</p>
+                </div>
+                <div class="skills">
+                    <h3>Tech Stack</h3>
+                    <ul class="skill-list">
+                        <li>Artificial Intelligence</li>
+                        <li>Blockchain</li>
+                        <li>Cloud Computing</li>
+                        <li>IoT</li>
+                        <li>Cybersecurity</li>
+                        <li>Data Science</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Latest <span class="highlight">Insights</span></h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=200&width=300')"></div>
+                    <div class="card-content">
+                        <h3>The AI Revolution: Beyond the Hype</h3>
+                        <p>Delving into the real-world applications of AI and machine learning that are transforming industries...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=200&width=300')"></div>
+                    <div class="card-content">
+                        <h3>Blockchain: Redefining Trust in the Digital Age</h3>
+                        <p>Exploring how blockchain technology is revolutionizing more than just finance...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="card-image" style="background-image: url('/placeholder.svg?height=200&width=300')"></div>
+                    <div class="card-content">
+                        <h3>The Quantum Leap: Computing's Next Frontier</h3>
+                        <p>Unraveling the mysteries of quantum computing and its potential to solve impossible problems...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured <span class="highlight">Projects</span></h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>AI-Powered Chatbot</h3>
+                    <p>An intelligent conversational agent built with natural language processing.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Blockchain Voting System</h3>
+                    <p>A secure and transparent voting platform leveraging blockchain technology.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>IoT Smart Home Hub</h3>
+                    <p>A centralized system for managing and automating smart home devices.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in <span class="highlight">Touch</span></h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TechBlog</h3>
+                <p>Exploring the frontiers of technology, one post at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-medium"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 TechBlog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
